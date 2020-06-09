@@ -2,16 +2,56 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+/* .App-logo {
+  height: 45vmin;
   pointer-events: none;
+} */
+
+.game-wrapper{
+  left: 10vw;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+.game{
+  height: 80vmin;
+  right:10vw;
+  width: 60vw;
+  justify-content: center;
+  /* width: 800px; */
+  /* height: 100%; */
+  background-image: url('/images/tic-tac-toe-board.png');
+  background-position: 7vw;
+  /* background-color: black; */
+}
+
+.newGame {
+  width: 200px;
+  height: 80px;
+  background-color: blue;
+  color: white;
+  font-size: 3vh;
+}
+.column{
+  display:flex;
+  /* flex-direction: column; */
+}
+.row{
+  display: flex;
+  flex-direction: row;
+}
+
+.board-units{
+  height: 20vh;
+}
+
+.button-wrapper{
+  padding: 15px;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
 .App-header {
   background-color: #282c34;
